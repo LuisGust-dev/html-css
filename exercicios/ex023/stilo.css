@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+table{
+    width: 400px;
+    border-collapse: collapse;
+   
+}
+
+td,th{
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    padding: 10px;
+
+}
+thead,tfoot{
+    background-color: rgba(107, 109, 110, 0.986);
+    color: aliceblue;
+}
+td.num{
+    text-align: right;
+}
+
+caption{
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: rgb(134, 132, 132);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+th.pol {
+   width: 50px; 
+}
