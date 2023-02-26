@@ -3,6 +3,7 @@
 table{
     width: 400px;
     border-collapse: collapse;
+    position: relative;
    
 }
 
@@ -29,4 +30,15 @@ caption{
 
 th.pol {
    width: 50px; 
+}
+
+tbody > tr:nth-child(2n){
+    background-color: lightgray;
+}
+
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color:rgba(107, 109, 110, 0.986);
+
 }
