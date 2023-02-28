@@ -40,6 +40,12 @@ th{
     
 }
 
-thead.ok{
+th.ok{
     background-color: darkgrey;
+}
+thead.ok{
+    background-color:darkgray ;
+}
+td.ok{
+    background-color:darkgray ;
 }
