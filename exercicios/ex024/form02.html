@@ -10,11 +10,13 @@
     
 <h1>Teste de formulario</h1>
 
-<form action="cadastro.php" method="post" autocomplete="off">
+<form action="cadastro.php" method="post" autocomplete="on">
     <p>
 
     <label for="iusu">Usuario</label>
-    <input type="text" name="name" id="iusu" required size="12" minlength="8" maxlength="15" placeholder="Nome do Usuário"> 
+    <input type="text" name="name" id="iusu" required size="12" minlength="8" maxlength="15" placeholder="Nome do Usuário" autocomplete="username"> 
+
+    <input type="submit" value="">
 </p>
 
 
@@ -22,7 +24,7 @@
 <p>
     <label for="isen">Senha</label>
 
-<input type="password" name="sen" id="isen" required size="12" minlength="8" maxlength="12">
+<input type="password" name="sen" id="isen" required size="12" minlength="8" maxlength="12" placeholder="Senha do Usuario" autocomplete="current-password">
 </p>
 
 
